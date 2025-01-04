@@ -1,0 +1,25 @@
+.optionsBtn {
+    border-radius: 8px;
+    border: 1px solid #242424;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-family: inherit;
+    color: inherit;
+    background-color: inherit;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.25s;
+}
+
+.optionsBtn:not(:last-child) {
+    margin-right: 8px;
+}
+
+.optionsBtn:hover {
+    border-color: #646cff;
+}
+
+.optionsBtn:focus,
+.optionsBtn:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
